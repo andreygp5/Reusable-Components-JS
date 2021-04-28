@@ -1,6 +1,5 @@
 class Carousel {
-  constructor({ sliderWrapper, slider, sliderItem, amountOfItems, nextBtn, prevBtn }) {
-    this.sliderWrapper = sliderWrapper;
+  constructor({ slider, sliderItem, amountOfItems, nextBtn, prevBtn }) {
     this.slider = slider;
 
     this.sliderItem = sliderItem;
